@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Men's Collection - Urbanic</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: lightsteelblue;
+      padding: 10px 20px;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+    h1 {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      letter-spacing: 2px;
+    }
+    .search-bar {
+      flex-grow: 1;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .search-bar input {
+      width: 80%;
+      padding: 20px 15px;
+      border-radius: 35px;
+      border: 1px solid #aaa;
+      font-size: 16px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: white;
+    }
+    .collection-section h2 {
+      margin-left: 20px;
+      font-family: 'Georgia', serif;
+      letter-spacing: 1px;
+      color: #333;
+    }
+    .dress-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+      background-color: #f5f5f5;
+    }
+    .dress-card {
+      width: 250px;
+      margin: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      border-radius: 12px;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+    }
+    .dress-card:hover {
+      transform: translateY(-5px);
+    }
+    .dress-card h3 {
+      margin: 10px 0 5px;
+    }
+    .dress-card p {
+      color: #555;
+    }
+    .dress-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .add-btn {
+      background-color: lightsteelblue;
+      color: #333;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-weight: bold;
+    }
+    .add-btn:hover {
+      background-color: #7b9bc3;
+      color: white;
+    }
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .wishlist-btn {
+      background-color: transparent;
+      color: #2c098d;
+      border: 1px solid thistle;
+      padding: 10px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    
+    .wishlist-btn:hover {
+      background-color: thistle;
+      color: rgb(92, 13, 153);
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://i.pinimg.com/736x/eb/9f/0b/eb9f0bc5e04dea60da41f61e7b6371b1.jpg" alt="Logo" class="logo" />
+      <h1>URBANIC</h1>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products..." />
+    </div>
+    <nav>
+      <a href="men.html">Men</a>
+      <a href="index.html">Back to Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="collection-section">
+      <h2>Men's Collection</h2>
+      <div class="dress-section">
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/3f/e6/b2/3fe6b2e692664a755644949efb73d51b.jpg" alt="Blazer" />
+          <h3>Classic Blazer</h3>
+          <p>₹2,499</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/b8/1b/1f/b81b1feb1172a4c34792493c6c99fdbe.jpg" alt="Denim Jacket" />
+          <h3>Denim Jacket</h3>
+          <p>₹1,999</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/bd/64/52/bd6452a42080693a5152440c31873f3a.jpg" alt="Formal Shirt" />
+          <h3>Formal Shirt</h3>
+          <p>₹1,299</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/f6/2f/91/f62f91908902407fad9c20b5c2b93e41.jpg" alt="T-shirt" />
+          <h3>Printed T-shirt</h3>
+          <p>₹799</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/0c/34/68/0c34689c2c668ff4602cdbe398c93d3b.jpg" alt="Kurta Set" />
+          <h3>Traditional Kurta</h3>
+          <p>₹1,599</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/36/ce/43/36ce43344b92305e283cd489b906641a.jpg" alt="Jeans" />
+          <h3>Casual Jeans</h3>
+          <p>₹1,199</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kids Collection - Urbanic</title>
+  <style>
+  body {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: thistle;
+    padding: 10px 20px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    letter-spacing: 2px;
+  }
+  .search-bar {
+    flex-grow: 1;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .search-bar input {
+    width: 80%;
+    padding: 20px 15px;
+    border-radius: 35px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+  }
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color: white;
+  }
+  .collection-section h2 {
+    margin-left: 20px;
+    font-family: 'Georgia', serif;
+    letter-spacing: 1px;
+    color: #333;
+  }
+  .dress-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+  }
+  .dress-card {
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+  .dress-card:hover {
+    transform: translateY(-5px);
+  }
+  .dress-card h3 {
+    margin: 10px 0 5px;
+  }
+  .dress-card p {
+    color: #555;
+  }
+  .dress-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .add-btn {
+    background-color: thistle;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: bold;
+  }
+  .add-btn:hover {
+    background-color: #d8bfd8;
+    color: white;
+  }
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .wishlist-btn {
+    background-color: transparent;
+    color: #2c098d;
+    border: 1px solid thistle;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .wishlist-btn:hover {
+    background-color: thistle;
+    color: rgb(92, 13, 153);
+  }
+  
+</style>
+    
+   
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://i.pinimg.com/736x/eb/9f/0b/eb9f0bc5e04dea60da41f61e7b6371b1.jpg" alt="Logo" class="logo" />
+      <h1>URBANIC</h1>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products...">
+    </div>
+    <nav>
+      <a href="kids.html">Kids</a>
+      <a href="index.html">Back to Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="collection-section">
+      <h2>Kids Collection</h2>
+      <div class="dress-section">
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/c2/9b/80/c29b80c5a54036c5f33eee07a0d1ab37.jpg" alt="Dress1">
+          <h3>Super Hero T-shirt</h3>
+          <p>₹999</p>
+          
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/a1/48/cd/a148cda1918469433c7485481e0cd1a4.jpg" alt="Dress2">
+          <h3>Princess Dress</h3>
+          <p>₹1,299</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/a7/cc/fc/a7ccfcf3287a39cfd658d4e9457fd918.jpg" alt="Dress3">
+          <h3>Dinosaur Print Shirt</h3>
+          <p>₹799</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/46/8b/f9/468bf96a4eb5d5be869098d4bb192768.jpg" alt="Dress4">
+          <h3>Flora Dress</h3>
+          <p>₹1,899</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/53/bb/8c/53bb8cfc8f3d0cdd565be86ce576391e.jpg" alt="Dress5">
+          <h3>Casual Kurti</h3>
+          <p>₹1,299</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/eb/3d/8c/eb3d8c661e8d78217a069c991f25925c.jpg" alt="Dress6">
+          <h3>Boy Jeans</h3>
+          <p>₹1,199</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/a2/73/ca/a273cafbb10b795a791ac8ba1a91e677.jpg" alt="Dress7">
+          <h3>Plaid Shirt</h3>
+          <p>₹899</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/9c/d8/cc/9cd8cc7b2cd0aff44e3f9347c82c24f3.jpg" alt="Dress8">
+          <h3>Ballet Dress</h3>
+          <p>₹1,599</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/86/59/b2/8659b2dfbd44f1147b99f1d961850b01.jpg" alt="Dress9">
+          <h3>Leopard Print Dress</h3>
+          <p>₹3,099</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/d8/59/9e/d8599e8a0387040f5b7dfea046eeb36f.jpg" alt="Dress10">
+          <h3>Denium Dress</h3>
+          <p>₹1,799</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
+

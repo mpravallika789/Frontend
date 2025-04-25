@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women's Collection - Urbanic</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: thistle;
+      padding: 10px 20px;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+    h1 {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      letter-spacing: 2px;
+    }
+    .search-bar {
+      flex-grow: 1;
+      text-align: center;
+      margin: 10px 0;
+    }
+    .search-bar input {
+      width: 80%;
+      padding: 20px 15px;
+      border-radius: 35px;
+      border: 1px solid #aaa;
+      font-size: 16px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: white;
+    }
+    .collection-section h2 {
+      margin-left: 20px;
+      font-family: 'Georgia', serif;
+      letter-spacing: 1px;
+      color: #333;
+    }
+    .dress-section {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+      background-color: #f9f9f9;
+    }
+    .dress-card {
+      width: 250px;
+      margin: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      border-radius: 12px;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+    }
+    .dress-card:hover {
+      transform: translateY(-5px);
+    }
+    .dress-card h3 {
+      margin: 10px 0 5px;
+    }
+    .dress-card p {
+      color: #555;
+    }
+    .dress-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .add-btn {
+      background-color: thistle;
+      color: #333;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-weight: bold;
+    }
+    .add-btn:hover {
+      background-color: #d8bfd8;
+      color: white;
+    }
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .wishlist-btn {
+      background-color: transparent;
+      color: #2c098d;
+      border: 1px solid thistle;
+      padding: 10px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    
+    .wishlist-btn:hover {
+      background-color: thistle;
+      color: rgb(92, 13, 153);
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://i.pinimg.com/736x/eb/9f/0b/eb9f0bc5e04dea60da41f61e7b6371b1.jpg" alt="Logo" class="logo" />
+      <h1>URBANIC</h1>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products...">
+    </div>
+    <nav>
+      <a href="women.html">Womens</a>
+      <a href="index.html">Back to Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="collection-section">
+      <h2>Women's Collection</h2>
+      <div class="dress-section">
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/05/16/3c/05163ca22fb64b9617c130effd34e56b.jpg" alt="Dress1">
+          <h3>Boho Maxi Dress</h3>
+          <p>₹2,499</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/1f/37/c6/1f37c63756c27f6a2a17d02b6fd5ea89.jpg" alt="Dress2">
+          <h3>Formal Blazer Dress</h3>
+          <p>₹3,699</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/31/f6/71/31f671322c174ef967c51cfc80945afb.jpg" alt="Dress3">
+          <h3>Pastel Ruffle Dress</h3>
+          <p>₹1,799</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/88/f6/6f/88f66f4d09027890a57f80a0635f0699.jpg" alt="Dress4">
+          <h3>Cocktail Satin Dress</h3>
+          <p>₹2,899</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/17/c1/96/17c196b5990fe7e5401c40faedef4597.jpg" alt="Dress5">
+          <h3>Casual Dress</h3>
+          <p>₹1,299</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/ce/b8/27/ceb82751049855a6f02fc7d2915eae6d.jpg" alt="Dress6">
+          <h3>Floral Wrap Dress</h3>
+          <p>₹2,199</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/c5/6d/82/c56d82060a1ad10b1f902c17bd1e8276.jpg" alt="Dress7">
+          <h3>Bodycon Party Dress</h3>
+          <p>₹2,499</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/d1/c5/56/d1c556abf36b32b547137b214c4b37bd.jpg" alt="Dress8">
+          <h3>Bohemian Sundress</h3>
+          <p>₹1,599</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/c6/e7/24/c6e7240dfa3c293663addf81e6a5bdcf.jpg" alt="Dress9">
+          <h3>Lace Midi Dress</h3>
+          <p>₹3,099</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+        <div class="dress-card">
+          <img src="https://i.pinimg.com/736x/d5/3c/00/d53c00c6ed93054f1bca81821e997e9a.jpg" alt="Dress10">
+          <h3>Chic Summer Dress</h3>
+          <p>₹1,799</p>
+          <button class="add-btn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

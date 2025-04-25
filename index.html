@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>Urbanic</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: thistle;
+      padding: 10px 20px;
+      width: 100%;
+    }
+    .logo-container{
+      display:flex;
+      align-items:center;
+
+    }
+    .logo{
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+    h1{
+      margin:0;
+      font-family: 'Georgia',serif;
+      letter-spacing: 2px;
+    }
+     .search-bar {
+      flex-grow: 1;
+      text-align: center;
+      margin: 10px 0;
+     }
+     .search-bar input{
+      width:80%;
+      padding: 20px 15px;
+      border-radius: 35px;
+      border: 1px solid #aaa;
+      font-size: 16px;
+
+     }
+
+    nav a{
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-family: 'Arial',sans-serif;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: white;
+    }
+    .dress-section{
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 30px 20px;
+      background-color: #f9f9f9;
+    }
+    .dress-card{
+      width: 250px;
+      margin: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      border-radius: 12px;
+      background-color: #fff;
+      transition: transform 0.3s ease;
+    }
+    .dress-card:hover{
+      transform: translateY(-5px);
+    }
+    .dress-card h3{
+      width: 100%;
+      border-radius: 10px 0 5px;
+
+    }
+    .dress-card p{
+      color:#555;
+    }
+    .dress-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .add-btn {
+      background-color: thistle;
+      color: #333;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-weight: bold;
+    }
+    
+    .add-btn:hover {
+      background-color: #d8bfd8;
+      color: white;
+    }
+    
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .search-bar input {
+        width: 95%;
+      }
+    
+      .dress-card {
+        width: 90%;
+      }
+    
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
+      nav {
+        margin-top: 10px;
+      }
+    
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+      h2 {
+        margin-left: 20px;
+        font-family: 'Georgia', serif;
+        letter-spacing: 1px;
+        color: #333;
+      }
+      
+      
+    }
+    .collection-section h2 {
+      margin-left: 20px;
+      font-family: 'Georgia', serif;
+      letter-spacing: 1px;
+      color: #333;
+    }
+    @media (min-width: 1200px) {
+      .dress-section {
+        padding: 60px;
+      }
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .button-row {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    
+    .wishlist-btn {
+      background-color: transparent;
+      color: #2c098d;
+      border: 1px solid thistle;
+      padding: 10px 15px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+    
+    .wishlist-btn:hover {
+      background-color: thistle;
+      color: rgb(129, 135, 137);
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- Header  -->
+  <header>
+    <div class="logo-container">
+      <img src="https://i.pinimg.com/736x/eb/9f/0b/eb9f0bc5e04dea60da41f61e7b6371b1.jpg" alt="Logo" class="logo" />
+      <h1>URBANIC</h1>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products....">
+        </div>
+        <nav>
+          <a href="women.html">Womens</a>
+          <a href="men.html">Mens</a>
+          <a href="kids.html">Kids</a>
+        </nav>
+        
+  
+  </header>
+  <main>
+    
+  <!-- Womens Section -->
+  <div class="collection-section">
+    <h2> Womens Collection</h2>
+    <div class="dress-section">
+      <!-- Women's products here -->
+       <div class="dress-card">
+        <img src="https://img101.urbanic.com/v1/goods-pic/4840041fa3d841a790762b46989a1b2b_w540_q85.webp"alt="Dress1">
+        <h3> Floral Midi Dress</h3>
+        <p>₹1,899</p>
+       <div class="button-row">
+        <button class="add-btn">Add to Cart</button>
+        <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+       </div>
+      </div>
+      <div class="dress-card">
+        <img src="https://i.pinimg.com/736x/3b/6e/f9/3b6ef9e3130ff195321eca897c653da9.jpg" alt="Dress 2">
+        <h3> Casual Summer Dress</h3>
+        <p>₹2,299</p>
+        <div class="button-row">
+        <button class="add-btn">Add to Cart</button>
+        <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+      </div>
+      <div class="dress-card">
+        <img src="https://i.pinimg.com/736x/e1/22/65/e122652c542f8319b9038635daf13865.jpg" alt="Dress 3">
+        <h3> Elegant Black Dress</h3>
+        <p>₹4,299</p>
+        <div class="button-row">
+          <button class="add-btn">Add to Cart</button>
+          <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+      
+  </div>
+</div>
+
+
+  <!-- Mens Section -->
+  <div class="collection-section">
+    <h2>Mens Collection</h2>
+    <div class="dress-section">
+      <!-- Mens products here -->
+      <div class="dress-card">
+        <img src="https://i.pinimg.com/736x/f6/0e/f3/f60ef34733d31bc1b775f82df4910a2c.jpg" alt="Man in casual shirt">
+        <h3>Casual Shirt</h3>
+        <p>₹1,299</p>
+        <div class="button-row">
+          <button class="add-btn">Add to Cart</button>
+          <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+          </div>
+      </div>
+      <div class="dress-card">
+        <img src="https://i.pinimg.com/736x/ac/05/df/ac05dfe598d094ef0190caf96720d7f2.jpg" alt="Man in denim jacket">
+        <h3>Denim Jacket</h3>
+        <p>₹2,999</p>
+        <div class="button-row">
+          <button class="add-btn">Add to Cart</button>
+          <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  
+<!-- Kids Section -->
+<div class="collection-section">
+  <h2>Kids Collection</h2>
+  <div class="dress-section">
+    <!-- kids products here -->
+    <div class="dress-card">
+      <img src="https://i.pinimg.com/736x/06/f0/4c/06f04c8d2c9646e813d24d41cb871afb.jpg" alt="Kid in unicorn dress">
+      <h3>Unicorn Dress</h3>
+      <p>₹999</p>
+      <div class="button-row">
+        <button class="add-btn">Add to Cart</button>
+        <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+      </div>
+    
+    </div>
+    <div class="dress-card">
+      <img src="https://i.pinimg.com/736x/e4/d8/1a/e4d81ad5d33aaf771c8a903b1e07d9fe.jpg" alt="Kid in T-shirt">
+      <h3>T-shirt</h3>
+      <p>₹1,199</p>
+      <div class="button-row">
+        <button class="add-btn">Add to Cart</button>
+        <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+</main>
+<footer style="background-color: thistle; padding: 15px; text-align: center; font-family: 'Georgia', serif; color: #333;">
+  &copy; 2025 Urbanic. All rights reserved.
+  
+</footer>
+
+</body>
+</html>
