@@ -24,7 +24,7 @@ To view the landing page on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mpravallika789/urbanic.git
+   https://github.com/mpravallika789/Frontend.git
 2. Open the index.html file in your preferred browser.
 
 No additional dependencies or frameworks are required. It's a pure HTML & CSS project – simple and effective.
